@@ -1,0 +1,38 @@
+deploy.sh
+deploy/*.yml
+ingress/*.yml
+deploy/*.config
+bin/*.envs
+.terraform
+.DS_Store
+bucketPolicy/.env
+bucketPolicy/creds/serviceAccount.json
+*.tfvars
+terraformV2/gke/creds/serviceAccount.json
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+
+# DUB
+.dub
+docs.json
+__dummy.html
+docs/
+
+# Code coverage
+*.lst
+
+.cache
+.idea/*
